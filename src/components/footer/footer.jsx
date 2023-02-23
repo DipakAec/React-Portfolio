@@ -23,12 +23,12 @@ const footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a href="https://www.linkedin.com/in/dipak-kumar-paul-368379128/"> <IoLogoLinkedin/> </a>
-        <a href="https://github.com/DipakAec"> <FaGithubSquare/></a>
-        <a href="https://www.facebook.com/idipakaec/"> <FaFacebookSquare/> </a>
-        <a href="https://www.instagram.com/dipakaec/"><FaInstagramSquare/></a>
-        <a href="https://codepen.io/your-work/"> <AiFillCodepenSquare/></a>
-        <a href="https://twitter.com/Dipak_1993"><FaTwitterSquare/></a>
+        <a href="https://www.linkedin.com/in/dipak-kumar-paul-368379128/" target="_blank"> <IoLogoLinkedin/> </a>
+        <a href="https://github.com/DipakAec" target="_blank"> <FaGithubSquare/></a>
+        <a href="https://www.facebook.com/idipakaec/" target="_blank"> <FaFacebookSquare/> </a>
+        <a href="https://www.instagram.com/dipakaec/" target="_blank"><FaInstagramSquare/></a>
+        <a href="https://codepen.io/your-work/" target="_blank"> <AiFillCodepenSquare/></a>
+        <a href="https://twitter.com/Dipak_1993" target="_blank"><FaTwitterSquare/></a>
 
       </div>
 

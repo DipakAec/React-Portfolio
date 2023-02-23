@@ -11,6 +11,7 @@ import {DiWordpress} from 'react-icons/di'
 const exprience = () => {
   return (
     <section id='experience'>
+      <h3>Some of my Skillsets</h3>
       <h2>Skills</h2>
       <container className="container experience_container">
        

@@ -13,6 +13,7 @@ const data = [
     img:IMG5,
     title:'MindBrew Studio',
     technology:'HTML,CSS,JS,PHP,MySQL',
+    Work: 'Development',
     live:'https://mindbrewstudio.com/'
   }
 ,
@@ -20,7 +21,8 @@ const data = [
   id:2,
   img:IMG3,
   title:'Raga Kitchen solutions',
-  technology:'HTML,CSS,JS,PHP,MySql',
+  technology:'HTML,CSS,JS,PHP,MySQL',
+  Work: 'Development',
   live:'https://ragakitchen.com/'
 },
 
@@ -29,6 +31,7 @@ const data = [
     img:IMG1,
     title:'Contempory Real stete',
     technology:'WordPress',
+    Work: 'Development & Maintenence',
     live:'https://contemporaryrealestate.ae/'
   }
   ,
@@ -37,7 +40,8 @@ const data = [
     id:4,
     img:IMG4,
     title:'Madame Sibarita',
-    technology:'HTML,CSS,JS,PHP,MySql,WordPress',
+    technology:'WordPress,CSS,JS,PHP,MySQL',
+    Work: 'Maintenence',
     live:'http://madamesibarita.com/'
   }
   ,
@@ -46,6 +50,7 @@ const data = [
     img:IMG2,
     title:'UMA group',
     technology:'HTML,CSS,JS',
+    Work: 'Development',
     live:'https://umagroup.in/'
   }
   
@@ -54,12 +59,12 @@ const data = [
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Works in Teams </h5>
+      <h3>My Works in Office </h3>
       <h2>Portfolio</h2>
       
       <div className='container portfolio_container'>
         {
-                    data.map(({id, img, title,technology, live}) => {
+                    data.map(({id, img, title,Work,technology, live}) => {
                       return(
             
                         <article key={id} className='portfolio-item'>
@@ -67,6 +72,7 @@ const portfolio = () => {
                                 <img src={img} alt="" />
                               </div>
                                <h3>{title}</h3>
+                               <h4>Work: {Work}</h4>
                                <h4>Technology: {technology}</h4>
                               <a href={live} className='btn btn-primary' target="blank">See Live</a>
                         </article>

@@ -115,6 +115,7 @@ a:hover{
   transition: var(--transition);
 }
 .btn-port:hover{
+  background: azure;
   color: var(--color-bg-variant);
 }
 img{

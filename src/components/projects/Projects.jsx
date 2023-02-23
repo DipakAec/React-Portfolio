@@ -33,7 +33,7 @@ const data = [
 const Projects = () => {
   return (
     <section id='projects'>
-    <h5>My Solo Developed Projects in React JS</h5>
+    <h3>My Solo Developed Projects in React JS</h3>
       <h2>Projects </h2>
       
       <div className='container projects_container'>
