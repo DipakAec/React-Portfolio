@@ -39,7 +39,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h2>Experience</h2>
-              <h3> <a className='exp-ancor' href="https://www.mindbrewstudio.com/index.html"> Mind Brew Studio </a> - Currently Working</h3>
+              <h3> <a className='exp-ancor' href="https://www.mindbrewstudio.com/"> Mind Brew Studio </a> - Currently Working</h3>
               <h4>Web Developer</h4>
               <h3> <a className='exp-ancor' href="http://www.stmarysgroupofinstitutions.in/"> St.Mary's Arcadian School </a> - Formar</h3>
               <h4>Assistant Teacher</h4>
