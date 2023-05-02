@@ -5,6 +5,7 @@ import IMG2 from '../../assets/uma.png'
 import IMG3 from '../../assets/raga.png'
 import IMG4 from '../../assets/sibarita.png'
 import IMG5 from '../../assets/mindbrew.png'
+import IMG6 from '../../assets/promo.png'
 
 const data = [
   
@@ -53,6 +54,15 @@ const data = [
     Work: 'Development',
     live:'https://umagroup.in/'
   }
+  ,
+  {
+    id:6,
+    img:IMG6,
+    title:'Ant Promoskope',
+    technology:'HTML,CSS,JS,PHP,MySQL',
+    live:'https://promoskope.com/'
+  }
+  
   
 ]
 

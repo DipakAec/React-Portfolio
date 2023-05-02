@@ -3,7 +3,7 @@ import './Projects.css'
 import IMG1 from '../../assets/projects/bmi.png'
 import IMG2 from '../../assets/projects/movie.png'
 import IMG3 from '../../assets/projects/weather.png'
-
+import IMG4 from '../../assets/projects/threejs.png'
 
 const data = [
   
@@ -26,6 +26,13 @@ const data = [
     img:IMG3,
     title:'Weather App in React',
     live:'https://dipakaec.github.io/React-Weather-App/'
+  }
+  ,
+  {
+    id:4,
+    img:IMG4,
+    title:'3D Portfolio',
+    live:'https://dipak-portfolio3d.netlify.app/'
   }
 
 ]
