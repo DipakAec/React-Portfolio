@@ -7,7 +7,7 @@ const cta = () => {
     <div className='cta'>
         <a href={CV} download className='btn'>Download Resume</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-        <a href="https://dipak-portfolio.vercel.app/" className='btn-port' target="blank">Second Portfolio</a>
+        <a href="https://dipak3dportfolio.netlify.app/" className='btn-port' target="blank">3D Portfolio</a>
     </div>
   )
 }

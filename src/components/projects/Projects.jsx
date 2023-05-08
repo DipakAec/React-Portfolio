@@ -32,7 +32,7 @@ const data = [
     id:4,
     img:IMG4,
     title:'3D Portfolio',
-    live:'https://dipak-portfolio3d.netlify.app/'
+    live:'https://dipak3dportfolio.netlify.app/'
   }
 
 ]
